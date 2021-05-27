@@ -6,6 +6,12 @@ class User extends Model {
   checkPassword(loginPw) {
     return bcrypt.compareSync(loginPw, this.password);
   }
+  //this prints out the value entered into the database
+  showInfo(){
+      return {
+          id: this.id
+      }
+  }
 }
 
 User.init(
@@ -50,3 +56,5 @@ User.init(
       modelName: 'user',
     }
   );
+
+  module.exports = User;
