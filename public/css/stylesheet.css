@@ -17,12 +17,31 @@ ul {
 }  
 
 /* ==============================================
--  media queries to control number of slides 
+-  Header
 ============================================== */
 
+.header{
+  background: rgb(22, 22, 22);
+  width: 100vw;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-.pusher{
+.leftMenu{
+ width: 20vw;
+}
 
-
+.rightMenu {
+  width: 80vw;
 
 }
+
+.pusher{
+  background-color: blanchedalmond;
+  height: 20px;
+  width:20px;
+}
+  
+  
