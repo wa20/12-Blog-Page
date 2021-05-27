@@ -16,6 +16,15 @@ ul {
   list-style: none;
 }  
 
+html.ios {
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+html.ios,
+html.ios body {
+  height: initial !important;
+}
+
 /* ==============================================
 -  Header
 ============================================== */
@@ -30,13 +39,24 @@ ul {
 }
 
 .leftMenu{
- width: 20vw;
+ width: 10vw;
+}
+
+.middleMenu{
+  width: 20vw;
 }
 
 .rightMenu {
-  width: 80vw;
+  width: 100%;
 
 }
+
+
+/* ==============================================
+-  Header
+============================================== */
+
+
 
 .pusher{
   background-color: blanchedalmond;
