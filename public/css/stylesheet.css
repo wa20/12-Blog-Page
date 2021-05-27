@@ -25,6 +25,16 @@ html.ios body {
   height: initial !important;
 }
 
+body {
+  background-image: url("/assets/Background-symbols.jpg");
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  /* min-height: 100vh; */
+}
+
 /* ==============================================
 -  Header
 ============================================== */
