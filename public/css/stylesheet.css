@@ -87,9 +87,10 @@ html {
 -  box sizes
 ============================================== */
 
-.signUP{
+.signUP, .logIn{
   width: 60vw;
 }
+
 
 
 /* .pusher{
