@@ -60,28 +60,49 @@
 
           <!-- {{{body}}} -->
 
-    <div class="box title is-4 has-text-centered logIn">
-            <i class="fas fa-sign-in-alt"></i>
-             Log In Below
-    </div>
-    <form class="box logIn">
-            <div class="field">
+          <div class="box title is-4 has-text-centered">
+            <!-- <i class="fas fa-sign-in-alt"></i> -->
+             Create Account
+</div>
+ <form class="box signUP">
+
+          <div class="field">
+            <label class="label">First Name</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="Joe" id="firstName">       
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Last Name</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="Bloggs" id="lastName">       
+            </div>
+          </div>
+          <div class="field">
               <label class="label">Email</label>
               <div class="control">
-                <input class="input" type="email" placeholder="e.g. name@example.com" id="logInEmail">      
+                <input class="input" type="email" placeholder="e.g. name@example.com" id="emailSignUp">       
               </div>
-            </div>
+          </div>
           
-            <div class="field">
+          <div class="field">
               <label class="label">Password</label>
               <div class="control">
-                <input class="input" type="password" placeholder="********" id="logInPassword">
+                <input class="input" type="password" placeholder="********" id="PWMain">
               </div>
-            </div>
-          
-            <button class="button is-danger" id="SignIn">Sign in</button>
-    </form>
+          </div>
 
+          <div class="field">
+            <label class="label">Re-Enter Password</label>
+            <div class="control">
+              <input class="input" type="password" placeholder="********" id="PWCheck">
+            </div>
+        </div>
+        
+          
+            <button class="button is-danger" id="creatAccount">Creat Account</button>
+           
+    </form>
 
         </section>
   </section>
