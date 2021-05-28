@@ -87,8 +87,15 @@ html {
 -  box sizes
 ============================================== */
 
-.signUP, .logIn{
+.signUP{
   width: 60vw;
+}
+
+
+@media (min-width: 950px) { 
+  .logIn{
+    width: 30vw;
+  }
 }
 
 
