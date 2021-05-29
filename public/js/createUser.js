@@ -1,6 +1,9 @@
 const signUP = document.getElementById('creatAccount');
 
-signUP.addEventListener("click", async () => {
+signUP.addEventListener("click", async (event) => {
+
+  event.preventDefault();
+
   //check passwords match
   const PWMain = document.getElementById('PWMain').value.trim();
   const PWTwo = document.getElementById('PWCheck').value.trim();
