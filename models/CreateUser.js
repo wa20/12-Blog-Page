@@ -31,7 +31,7 @@ User.init(
       lastName: {
       type: DataTypes.STRING,
       allowNull: false,
-    },
+      },
 
       email: {
         type: DataTypes.STRING,
@@ -49,6 +49,7 @@ User.init(
           len: [8],
         },
       },
+      
     },
     {
       hooks: {
