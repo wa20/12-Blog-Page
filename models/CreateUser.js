@@ -16,7 +16,8 @@ class User extends Model {
 
 User.init(
     {
-      id: {
+      // Manually define the primary key
+      user_id: {
         type: DataTypes.INTEGER,
         allowNull: false,
         primaryKey: true,
@@ -60,6 +61,7 @@ User.init(
       },
       sequelize,
       timestamps: false,
+       // Prevent sequelize from renaming the table
       freezeTableName: true,
       underscored: true,
       modelName: 'user',
