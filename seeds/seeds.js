@@ -24,4 +24,6 @@ const SeedDatabase = async () => {
     process.exit(0)
 
 
-}
+};
+
+SeedDatabase();

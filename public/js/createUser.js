@@ -16,6 +16,7 @@ signUP.addEventListener("click", async (event) => {
   const firstNameVal = document.getElementById("firstName").value.trim();
   const lasttNameVal = document.getElementById("lasttName").value.trim();
   const emailVal = document.getElementById("emailSignUp").value.trim()
+  // username need to create
 
   const submitNewUser = await fetch("/api/createUser", {
     method: "POST",
